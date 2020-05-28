@@ -1,1 +1,15 @@
 /* Add your CSS Below */
+.boxb {
+  position: relative;
+  bottom: 15px;
+  left: 15px;
+}
+.boxc {
+  position: absolute;
+  left: 232px;
+  bottom: 87px;
+}
+.boxa {
+  position: fixed;
+  left: 1000px;
+}

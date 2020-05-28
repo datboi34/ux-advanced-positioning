@@ -1,1 +1,45 @@
 /* Add your CSS Below */
+table {
+  border-collapse: collapse;
+  width: 60%;
+  overflow: hidden;
+}
+
+td {
+  padding: 5px;
+}
+
+th {
+  border-radius: 2px 2px 0px 0px;
+}
+thead {
+  background-color: darkgreen;
+  color: white;
+}
+/* 1st column */
+td:nth-child(1) {
+  text-align: right;
+}
+/* 2nd column */
+td:nth-child(2) {
+  padding-left: 15px;
+}
+/* column 3 */
+td:nth-child(3) {
+  text-align: right;
+  padding: 15px;
+}
+/* column1 header */
+th:nth-child(1) {
+  text-align: right;
+}
+/* column 2 header */
+th:nth-child(2) {
+  text-align: left;
+  padding: 15px;
+}
+/* header column 3 */
+th:nth-child(3) {
+  text-align: right;
+  padding: 15px;
+}
